@@ -1,0 +1,22 @@
+.img{
+    width: 100px;
+    border-radius: 100%;
+    border-color: black;
+    background-color: blue;
+}
+
+.img{
+    width: 100px;
+    border-radius: 100%;
+    border-color: black;
+    background-color: blue;
+}
+
+body{
+    background-color: rgb(116, 115, 109);
+}
+#h1{
+    width: 40px;
+    font-weight: 100;
+    color: blue;
+}
