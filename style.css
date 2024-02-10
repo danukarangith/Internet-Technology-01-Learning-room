@@ -1,20 +1,16 @@
 .img{
-    width: 100px;
+    padding: auto;
+    width: 200px;
     border-radius: 100%;
     border-color: black;
     background-color: blue;
 }
+.container{
 
-.img{
-    width: 100px;
-    border-radius: 100%;
-    border-color: black;
-    background-color: blue;
+     padding: 20px 30%;
 }
 
-body{
-    background-color: rgb(116, 115, 109);
-}
-.a{
-    color: brown;
-}
+ 
+
+ 
+ 
