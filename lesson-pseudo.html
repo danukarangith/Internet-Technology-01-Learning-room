@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: black;
+            color: wheat;
+            width: 200px;
+            height: 50px;
+            font-size: 23px;
+            border-radius: 10px;
+            border-color: red;
+        }
+        button:hover{
+            background-color: red;
+            cursor: pointer;
+            transition: 1s;
+             border-radius: 10px;
+        }
+        button:active{
+            background-color: purple;
+            
+
+        }
+        li:first-child{
+            color: red;
+        }
+        li:nth-child(3){
+            color: purple;
+        }
+        li:last-child{
+            color: blue;
+        }
+         p::before{
+            content: "Read this...";
+            color: red;
+         }
+         p::after{
+            content: "The end";
+            color: red;
+         }
+    </style>
+</head>
+<body>
+    <h1>lesson pseudo</h1>
+    <button> click me</button>
+    <br>
+    <br>
+    <hr>
+
+    ========================1.pseudo classes==============================
+    <ul>
+        <li>java</li>
+        <li>python</li>
+        <li>javascript</li>
+        <li>typescript</li>
+    </ul>
+
+    =========================2.element pesudo============================
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores voluptates nisi saepe, voluptatum id reprehenderit? Aut aliquid molestiae, exercitationem nesciunt repudiandae nihil inventore blanditiis neque doloremque itaque facilis autem necessitatibus.</p>
+</body>
+</html>
