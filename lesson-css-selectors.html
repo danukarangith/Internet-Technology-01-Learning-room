@@ -15,6 +15,40 @@
         input[type="text"]{
             background-color: aquamarine;
         }
+        button:hover{
+            background-color: aqua;
+        }
+        p::before{
+            content: "Read this...";
+            color: red;
+         }
+         p::after{
+            content: "The end";
+            color: red;
+         }
+         p::first-letter{
+            font-size: 30px;
+            color: blue;
+         }
+         div div h4{
+            color: blue;
+         }
+         div > h5{
+            font-weight: bold;
+            color: purple;
+            font-style: italic;
+            font-size: 24px;
+
+         }
+
+         h2+p{
+            background-color: chartreuse;
+             
+         }
+         h3 ~ p{
+            background-color: green;
+         }
+
 
     </style>
 </head>
@@ -42,8 +76,48 @@
     <br>
 
     ==============5.pseudo classes selectors=====================
+    <br>
+    <br>
 
-    
+    <button>click me</button>
+    <br>
+    <br>
+
+    ==============6.pseudo elements selectors=====================
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis excepturi provident repudiandae libero asperiores repellat distinctio atque assumenda tempore similique. Aliquid earum hic expedita error, praesentium inventore totam voluptas voluptates.</p>
+
+    ==============7.desecendent selectors(white space combinator)=====================
+    <div>
+        
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nemo aperiam porro omnis optio asperiores et dolor dicta? Voluptatibus, ad ipsam ut quibusdam aperiam consequatur in fugiat mollitia repudiandae temporibus.</h4>
+        
+        <div>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium neque aspernatur, ipsa dolores repellat possimus eius sint, quia alias praesentium quasi eaque consequuntur iste aut ratione. Commodi culpa animi corrupti.</h4>
+        </div>
+    </div>
+
+
+    ====================8.child selecter============================
+    <div>
+        <h5>java</h5>
+        <h5>python</h5>
+        <h5>javascript</h5>
+        <h5>typescript</h5>
+    </div>
+    =======================9.adjacent sigling selecter==================
+    <h2>heading 2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere placeat reprehenderit asperiores laboriosam error, eos totam ex natus harum excepturi saepe qui neque? Fugit optio, aut deleniti molestias quo harum.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis sed quam minus magnam officiis nam! Nobis voluptatibus impedit sit ipsam, quia eos fuga iure suscipit ut, facere, ad perferendis neque?</p>
+
+    =======================10.Genaral sibling selecter=======================
+    <h3>heading 3</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus praesentium ipsum, ducimus eaque mollitia repellat laboriosam corrupti excepturi soluta maiores deleniti aperiam obcaecati consectetur est corporis maxime nostrum nesciunt unde?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quasi. Nesciunt ipsam, possimus adipisci, rerum nam libero placeat dignissimos, nulla dolore numquam est odio quod neque similique doloribus ex cum!
+    </p>
     
 </body>
 </html>
