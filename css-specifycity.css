@@ -7,3 +7,30 @@ p{
 #content-id{
     color: red;
 }
+h4{
+    color: blueviolet;
+    font-size: 23px;
+}
+.card-title{
+    color: red;
+    font-size: 30px;
+}
+#card-title-id{
+    color: darkred;
+    font-size: 34px;
+}
+div h4{
+    color: green;
+}
+div .card-title{
+    color: midnightblue;
+}
+div #card-title-id{
+    color: yellowgreen;
+}
+.card .card-title{
+    color:#0C359E;
+}
+#card-id #card-title-id{
+    color:#F72798 ;
+}
