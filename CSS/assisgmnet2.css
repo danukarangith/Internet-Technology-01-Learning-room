@@ -1,7 +1,8 @@
 .card{
     border-width: 5px;
     border-style: solid;
-    
+    border-color: aqua;
+
     
     height: 400px;
     width: 180px;
