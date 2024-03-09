@@ -18,6 +18,14 @@
         .container > div:nth-child(odd){
             background-color: wheat;
         }
+        .nested > div{
+            border: 1px solid black;
+            padding: 3px;
+        }
+        .nested{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
     </style>
 </head>
 <body>
@@ -26,7 +34,12 @@
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minus nemo placeat nesciunt aspernatur et accusantium error dolorum, corrupti dolor vel dolores debitis harum nam provident sit iusto excepturi impedit?</div>
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minus nemo placeat nesciunt aspernatur et accusantium error dolorum, corrupti dolor vel dolores debitis harum nam provident sit iusto excepturi impedit?</div>
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minus nemo placeat nesciunt aspernatur et accusantium error dolorum, corrupti dolor vel dolores debitis harum nam provident sit iusto excepturi impedit?</div>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minus nemo placeat nesciunt aspernatur et accusantium error dolorum, corrupti dolor vel dolores debitis harum nam provident sit iusto excepturi impedit?</div>
+        <div><div class="nested">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis esse repellendus iste nam ratione ipsam debitis unde saepe labore, quisquam vitae corporis officia dolorum eius nulla totam perferendis laborum commodi.</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, beatae explicabo. Placeat, perspiciatis magnam, veritatis vero molestiae laboriosam esse illo sunt illum id dolores beatae quibusdam. Velit magnam animi ipsum!</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aperiam libero fugiat dolor esse non iure quo eveniet cumque! Impedit minus illo temporibus voluptatum obcaecati hic reiciendis nam quidem expedita.</div>
+        </div></div>
+        
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minus nemo placeat nesciunt aspernatur et accusantium error dolorum, corrupti dolor vel dolores debitis harum nam provident sit iusto excepturi impedit?</div>
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minus nemo placeat nesciunt aspernatur et accusantium error dolorum, corrupti dolor vel dolores debitis harum nam provident sit iusto excepturi impedit?</div>
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minus nemo placeat nesciunt aspernatur et accusantium error dolorum, corrupti dolor vel dolores debitis harum nam provident sit iusto excepturi impedit?</div>
@@ -34,6 +47,9 @@
         
 
     </div>
+   
+
+     
    
 </body>
 </html>
