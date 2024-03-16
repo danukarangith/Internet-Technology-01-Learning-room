@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    
+    animation: Square 5s forwards;
+}
+
+@keyframes Square {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        top: 0px;
+        left: 500px;
+        border-radius: 30px;
+    }
+    50% {
+        border-radius: 30px;
+        top: 500px;
+        
+        left: 500px;
+        border-radius: 40px;
+         
+    }
+    75% {
+        
+        top: 500px;
+        lft: 0px;
+        border-radius: 30px;
+    }
+    100% {
+        
+        top: 0px;
+        left: 0px;
+        border-radius: 100px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
