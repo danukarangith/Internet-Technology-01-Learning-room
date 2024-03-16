@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle{
+            height: 50px;
+            width: 50px;
+            background-color: lawngreen;
+            border-radius: 100px;
+            margin-left: 20px;
+             animation-name: Circle;
+             animation-duration: 2s;
+             animation-timing-function: ease-in-out;
+             animation-iteration-count: infinite;
+             position: relative;
+             border: 1px solid black;
+        }
+        .five{
+            display: flex;
+            margin-top: 200px;
+            margin-left: 200px;
+             
+        }
+        @keyframes Circle{
+            0%,100%{
+                top: 50px;
+
+                 
+                
+            }
+            50%{
+                top: 200px;
+            }
+        }
+     .circle:nth-child(2) {
+          animation-delay: 0.2s;
+         }
+
+    .circle:nth-child(3) {
+           animation-delay: 0.4s;
+        }
+
+    .circle:nth-child(4) {
+          animation-delay: 0.6s;
+        }
+
+     .circle:nth-child(5) {
+        animation-delay: 0.8s;
+       }
+       body{
+        background-color: ;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="five">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+
+    </div>
+    
+    
+</body>
+</html>
