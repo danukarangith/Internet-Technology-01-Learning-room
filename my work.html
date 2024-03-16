@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* HTML: <div class="loader"></div> */
+ /* HTML: <div class="loader"></div> */
+.loader {
+  display: inline-flex;
+  gap: 10px;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  width: 150px;
+  height: 150px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(farthest-side,#000 95%,#0000) 75% 75%/5px 5px no-repeat
+    #fff;
+  animation: l5 3s infinite;
+}
+@keyframes l5 {
+  0%,11%   {background-position:35% 35%}
+  14%,36%  {background-position:65% 35%}
+  38%,61%  {background-position:65% 65%}
+  64%,86%  {background-position:35% 65%}
+  88%,100% {background-position:35% 35%}
+}
+body{
+    background-color: #000;
+}
+ 
+    </style>
+</head>
+<body>
+    <div class="loader">
+         
+    </div>
+    
+</body>
+</html>
