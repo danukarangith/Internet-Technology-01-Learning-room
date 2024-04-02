@@ -22,3 +22,11 @@
 
 let school ={}
 console.log('type of school :', typeof school)
+
+school={
+    firstName: 'aloysius',
+    lastName:  'college',
+    address : 'galle'
+
+}
+console.log(school)
