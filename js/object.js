@@ -19,3 +19,6 @@ console.log('student :', student['email'])
 student.age = 20;
 console.log('age :',student.age)
 console.log('age :',student)
+
+let school ={}
+console.log('type of student :', typeof school)
