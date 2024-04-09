@@ -32,3 +32,4 @@ school={
 console.log(school)
 
 let dog ={}
+dog={}
