@@ -27,7 +27,7 @@ console.log(subNumbers(20,10))
 console.log()
 
 // 4.constructor function
-function Student(name,age,email){
+let Student=(name,age,email) =>{
     this.name=name
     this.age=age
     this.email=email
