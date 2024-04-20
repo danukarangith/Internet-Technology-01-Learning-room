@@ -67,5 +67,10 @@ console.log
 // 06.Symbol 
 let Symbol = Symbol
 
+console.log(lastName)
+const lastName = 
+
+
+
 
 
