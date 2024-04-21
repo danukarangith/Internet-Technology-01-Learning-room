@@ -7,3 +7,13 @@ console.log(calculateButton)
 
 let boxes=document.getElementsByClassName('box')
 console.log(calculateButton)
+
+calculateButton.style.backgroundColor='green'
+calculateButton.style.color='white'
+
+calculateButton.addEventListener('click',function(){
+    alert("hello world!!!!" )
+    
+})
+
+ 
