@@ -17,11 +17,14 @@ body{
 li{
      font-size: medium;
      font-family: sans-serif;
-     padding-top: 2px;
+     padding-top: 5px;
 }
 li:hover{
      font-size: larger;
      color: blue;
+}
+li::after{
+     font-size: bold;
 }
 
  
