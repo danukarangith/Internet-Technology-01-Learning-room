@@ -4,10 +4,12 @@
     border-radius: 100%;
     border-color: black;
     background-color: blue;
+    
 }
 .container{
 
      padding: 20px 30%;
+     
 }
 body{
      background-color: wheat;
@@ -22,6 +24,8 @@ li{
 li:hover{
      font-size: larger;
      color: blue;
+     border: 2px solid  red;
+     
 }
 li::after{
      font-size: bold;
