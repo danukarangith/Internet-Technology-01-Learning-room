@@ -12,8 +12,8 @@ calculateButton.style.backgroundColor='green'
 calculateButton.style.color='white'
 
 calculateButton.addEventListener('click',function(){
-    alert("hello world!!!!" )
+    alert("hello world")
     
 })
 
- 
+ alert("welcome");
