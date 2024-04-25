@@ -12,3 +12,10 @@
   document.getElementById("btn2").onclick=function(){
    document.getElementById("empty").innerHTML="lorem bn pisseks hsbsbsbuwsbu"
   }
+
+  document.getElementById().onclick=function(){
+   
+  }
+
+   
+
