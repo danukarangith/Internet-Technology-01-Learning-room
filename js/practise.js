@@ -36,4 +36,4 @@ console.log(food)
 var tweet = ["good morning","take a coffe","back to  home"]
 console.log(tweet);
 tweet.push ("good night")
-tweet.splice(1,2)
+tweet.splice(1,0,"drive car","wash")
