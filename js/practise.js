@@ -12,8 +12,10 @@
   document.getElementById("btn2").onclick=function(){
    document.getElementById("empty").innerHTML="lorem bn pisseks hsbsbsbuwsbu"
   }
+   var x = 10;
+  document.getElementById("btn3").onclick=function(){
 
-  document.getElementById().onclick=function(){
+ alert(x)
        
    
 
