@@ -30,4 +30,5 @@ var food= new Array();
  
 food[0]="kottu";
 food[1]="rice";
-alert(food[0]);
+// alert(food[0]);
+console.log(food)
