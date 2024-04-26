@@ -25,3 +25,9 @@ document.getElementById("update").onclick = function () {
   // alert(uptext);
   document.getElementById("cl").innerHTML= "hello "+uptext;
 };
+
+var food= new Array();
+ 
+food[0]="kottu";
+food[1]="rice";
+alert(food[0]);
