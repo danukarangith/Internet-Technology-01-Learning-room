@@ -32,3 +32,7 @@ food[0]="kottu";
 food[1]="rice";
 // alert(food[0]);
 console.log(food)
+
+var tweet = ["good morning","take a coffe","back to  home"]
+console.log(tweet);
+tweet.push ("good night")
