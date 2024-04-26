@@ -13,6 +13,7 @@
    document.getElementById("empty").innerHTML="lorem bn pisseks hsbsbsbuwsbu"
   }
    var x = 10;
+   x=25;
   document.getElementById("btn3").onclick=function(){
 
  alert(x)
