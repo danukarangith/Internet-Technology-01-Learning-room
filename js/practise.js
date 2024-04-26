@@ -22,5 +22,6 @@ document.getElementById("update").onclick = function () {
 
   uptext = document.getElementById("input").value;
 
-  alert(uptext);
+  // alert(uptext);
+  document.getElementById("cl").innerHTML=uptext;
 };
