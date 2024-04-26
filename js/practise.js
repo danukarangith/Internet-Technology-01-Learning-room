@@ -22,5 +22,14 @@
 
   }
 
+
+  document.getElementById("update").onclick=function(){
+
+   var uptext =""
+   uptext=document.getElementById("input").value;
+
+   alert(uptext);
+  }
+
    
 
