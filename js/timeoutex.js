@@ -27,6 +27,5 @@ function print() {
       
     }, 5000);  
   }
-  
   print();
   
