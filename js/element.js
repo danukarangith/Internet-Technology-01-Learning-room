@@ -16,4 +16,24 @@ calculateButton.addEventListener('click',function(){
     
 })
 
- alert("welcome");
+//  alert("welcome");
+
+//  tag selectors
+
+let hedings= document.getElementsByTagName("h1")
+console.log(hedings)
+
+// querySelector
+ let test=document.querySelector('.test')
+ console.log(test)
+
+ let box = document.querySelector('.box')
+ console.log(box)
+
+//  querySelectorAll
+
+ let b =document.querySelectorAll('.box')
+ console.log(b)
+
+ let bb=document.querySelector('#container .box')
+ console.log(bb)
