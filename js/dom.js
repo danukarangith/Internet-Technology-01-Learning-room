@@ -31,3 +31,18 @@ box.classList.add('abx')
 console.log(box.classList)
 
 box.classList.remove('abx')
+
+
+// 6.append appendchild
+
+let parentDiv = document.createElement('div')
+box.append(parentDiv)
+
+let childDiv = document.createElement('div')
+child.setAttribute('attr', 'new')
+parentDiv.appendChild(childDiv)
+
+// 7.remove and removechild
+
+parentDiv.removeChild(childDiv)
+parentDiv.remove()
