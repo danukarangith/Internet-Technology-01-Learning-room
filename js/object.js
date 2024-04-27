@@ -33,3 +33,17 @@ console.log(school)
 
 let dog ={}
 dog={}
+
+let person={
+    name: 'kamal',
+    age:30,
+    greet:function (){
+        console.log("good morning")
+
+    }
+
+
+    
+
+}
+console.log(person.greet())
