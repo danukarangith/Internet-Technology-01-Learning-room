@@ -38,4 +38,6 @@ console.log(tweet);
 tweet.push ("good night")
 tweet.splice(1,0,"drive car","wash")
 
+var vehicles=new Array();
+
 console.log(food)
