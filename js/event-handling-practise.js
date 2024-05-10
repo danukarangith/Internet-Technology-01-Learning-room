@@ -24,15 +24,24 @@ window.addEventListener("online",function(){
 // let vs var
 
 
-let color = "red";
- color ="blue";
+// let color = "red";
+//  color ="blue";
 
-function getColor(){
-    let color = "green";
-     color ="yellow"
-     console.log(color)
-}
-getColor();
-console.log(color)
+// function getColor(){
+//     let color = "green";
+//      color ="yellow"
+//      console.log(color)
+// }
+// getColor();
+// console.log(color)
+
+const user = "danu";
+
+ function getName(){
+    const user ="kavi"
+    console.log(user)
+ }
+ getName();
+ console.log(user);
 
 
