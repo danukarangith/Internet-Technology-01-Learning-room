@@ -35,13 +35,30 @@ window.addEventListener("online",function(){
 // getColor();
 // console.log(color)
 
-const user = "danu";
+// const user = "danu";
 
- function getName(){
-    const user ="kavi"
-    console.log(user)
- }
- getName();
- console.log(user);
+//  function getName(){
+//     const user ="kavi"
+//     console.log(user)
+//  }
+//  getName();
+//  console.log(user);
+
+//  const username={
+//     name : "danuka"
+//  }
+
+//  username.name ="kavi"
+
+//  console.log(username.name)
+
+ const school =["danuka"]
+  school.push("kavinda")
+  school.push("perera")
+  school.
+  
+ 
+ console.log(school)
+
 
 
