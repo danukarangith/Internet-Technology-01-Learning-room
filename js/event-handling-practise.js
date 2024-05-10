@@ -19,3 +19,20 @@ window.addEventListener("offline",function(){
 window.addEventListener("online",function(){
     alert("your conection is back")
 })
+
+
+// let vs var
+
+
+let color = "red";
+ color ="blue";
+
+function getColor(){
+    let color = "green";
+     color ="yellow"
+     console.log(color)
+}
+getColor();
+console.log(color)
+
+
