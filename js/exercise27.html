@@ -1,62 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson Validation</title>
+    <link rel="stylesheet" href="/js/lesson-validation.css />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Customer Registration</h2>
+      <form id="registrationForm">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" />
+        <span class="error" id="fullNameError"></span>
 
-    <style>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        <span class="error" id="emailError"></span>
 
-        #form{
-            
-            border: 2px solid black;
-            padding: 20px;
+        <label for="payment">Password</label>
+        <input type="password" id="password" name="password" />
+        <span class="error" id="passwordError"></span>
 
-            margin-top: 10%;
-        }
-        body{
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-        form{
-            display: flex;
-            flex-direction: column;
-        }
-         label{
-            margin-top: 10px;
-         }
-         input{
-            margin-top: 10px;
-         }
-         button{
-            margin-top: 10PX;
-            background-color: blue;
-            color: white;
-            width: 130px;
-            height: 30px;
-        
-         }
-    </style>
-</head>
-<body>
+        <label for="confirmPassword">Confirm Payment</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" />
+        <span class="error" id="confirmPasswordError"></span>
 
-    <div id="form">
-        <h1> Customer Registation</h1>
-        <form action="" >
-            <label for="" >full Name</label>
-            <input type="text" required>
-            <label for="">Email</label>
-            <input type="text" required>
-            <label for="">Password</label>
-            <input type="password"
-            <label for="">Confirm Password</label>
-            <input type="text">
-            <button>Register</button>
-        </form>
-
+        <input type="submit" value="Register" />
+      </form>
     </div>
-    
-    
-</body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/LessonValidation.js"></script>
+  </body>
 </html>
