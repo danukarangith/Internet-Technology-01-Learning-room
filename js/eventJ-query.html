@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: red;
+        } */
+    </style>
+</head>
+<body>
+    <div></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        $('div').css({
+            "width": "400px",
+            "height": "400px",
+            // "background-color": "red",
+            "border": "2px solid yellow"
+              
+        });
+
+        $('div').hover(function () {
+            $(this).css("background-color", "blue");
+        }, function () {
+            $(this).css("background-color", "green");
+        });
+    </script>
+</body>
+</html>

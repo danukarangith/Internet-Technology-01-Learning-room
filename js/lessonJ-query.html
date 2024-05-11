@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson jQuery - Basics</title>
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        background: radial-gradient(lightgrey, white);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #box {
+        width: 400px;
+        height: 400px;
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+      // ========== using JavaScript ==========
+      /*document.addEventListener("DOMContentLoaded", function () {
+        console.log("Executes once the DOM is fully loaded");
+      }); */
+
+      // ========== using jQuery ==========
+      /*$(document).ready(function () {
+        console.log("Executes once the DOM is fully loaded");
+      }); */
+
+      $(document).ready(function () {
+        console.log("Executes once the DOM is fully loaded");
+       
+        // applying styles using jQuery
+        $('#box').css("background-color", "red")
+        $('#box').css("border-color", "yellow")
+      }); 
+    </script>
+  </body>
+</html>
